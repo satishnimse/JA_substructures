@@ -1,0 +1,61 @@
+MODEL        1
+HETATM    1  O1  JAC A   1      99.541 126.515 113.896  0.00  0.00           O
+HETATM    2  O7  JAC A   1     100.544 126.493 111.823  0.00  0.00           O
+HETATM    3  C1  JAC A   1      98.091 124.829 111.053  0.00  0.00           C
+HETATM    4  C2  JAC A   1      98.454 125.396 112.261  0.00  0.00           C
+HETATM    5  C3  JAC A   1      97.688 125.281 113.399  0.00  0.00           C
+HETATM    6  C4  JAC A   1      96.887 124.109 110.999  0.00  0.00           C
+HETATM    7  C5  JAC A   1      96.083 123.981 112.170  0.00  0.00           C
+HETATM    8  C6  JAC A   1      96.498 124.578 113.375  0.00  0.00           C
+HETATM    9  C7  JAC A   1      98.339 125.991 114.514  0.00  0.00           C
+HETATM   10  C9  JAC A   1      99.639 126.182 112.570  0.00  0.00           C
+HETATM   11  C10 JAC A   1      96.459 123.507 109.805  0.00  0.00           C
+HETATM   12  C11 JAC A   1      94.883 123.257 112.097  0.00  0.00           C
+HETATM   13  C13 JAC A   1      95.261 122.793 109.757  0.00  0.00           C
+HETATM   14  C14 JAC A   1      94.476 122.668 110.899  0.00  0.00           C
+HETATM   15  O3  JAC A   1     101.829 123.505 108.180  0.00  0.00           O
+HETATM   16  O4  JAC A   1     101.441 125.330 106.655  0.00  0.00           O
+HETATM   17  C8  JAC A   1      98.948 124.990 109.891  0.00  0.00           C
+HETATM   18  C12 JAC A   1      99.986 124.085 109.673  0.00  0.00           C
+HETATM   19  C15 JAC A   1      98.718 126.053 109.006  0.00  0.00           C
+HETATM   20  C16 JAC A   1     100.774 124.278 108.557  0.00  0.00           C
+HETATM   21  C17 JAC A   1     100.553 125.321 107.686  0.00  0.00           C
+HETATM   22  C18 JAC A   1      99.531 126.227 107.883  0.00  0.00           C
+HETATM   23  C19 JAC A   1     102.247 124.177 106.975  0.00  0.00           C
+HETATM   24  O2  JAC A   1      95.760 124.481 114.515  0.00  0.00           O
+HETATM   25  C20 JAC A   1      96.001 123.350 115.350  0.00  0.00           C
+HETATM   26  O5  JAC A   1      94.870 122.220 108.584  0.00  0.00           O
+HETATM   27  C21 JAC A   1      95.530 122.659 107.398  0.00  0.00           C
+HETATM   28  O6  JAC A   1      93.305 121.972 110.861  0.00  0.00           O
+HETATM   29  C22 JAC A   1      92.785 121.510 112.105  0.00  0.00           C
+ENDMDL
+CONECT    1    9   10
+CONECT    2   10
+CONECT    3    4    6   17
+CONECT    4    3    5   10
+CONECT    5    4    8    9
+CONECT    6    3    7   11
+CONECT    7    6    8   12
+CONECT    8    5    7   24
+CONECT    9    1    5
+CONECT   10    1    2    4
+CONECT   11    6   13
+CONECT   12    7   14
+CONECT   13   11   14   26
+CONECT   14   12   13   28
+CONECT   15   20   23
+CONECT   16   21   23
+CONECT   17    3   18   19
+CONECT   18   17   20
+CONECT   19   17   22
+CONECT   20   15   18   21
+CONECT   21   16   20   22
+CONECT   22   19   21
+CONECT   23   15   16
+CONECT   24    8   25
+CONECT   25   24
+CONECT   26   13   27
+CONECT   27   26
+CONECT   28   14   29
+CONECT   29   28
+ENDMDL
